@@ -1,0 +1,247 @@
+body{
+	margin: 0px;
+	
+}
+.nav-bar{
+    color: white;
+}
+
+.nav-bar-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #178387;
+    padding: 10px;
+    font-family: "Roboto";
+}
+
+.nav-options-card {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.nav-icon{
+    color: #fff;
+}
+
+.nav-icon-card{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.nav-img {
+    width: 50px;
+    border-radius: 60px;
+    margin-left: 20px;
+    
+}
+
+.nav-options {
+    list-style: None;
+    color: #fff;
+    padding-left: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.visible {
+    display: none;
+}
+@media all and (max-width: 767px){
+    .nav-options-card{
+        background-color: #178387;
+    }
+    .visible2{
+        display: none;
+    }
+}
+@media all and (min-width: 768px){
+    #btn{
+        display: none;
+    }
+    .nav-icon-card{
+        width: 60px;
+    }
+    .nav-options-card1{
+        display: flex;
+    }
+    .visible2{
+        display: flex;
+    }
+}
+
+.home-part{
+
+	align-items: center;
+	background-image: url("https://img.freepik.com/free-photo/gourmet-biryani-with-saffron-rice-chicken-generated-by-ai_188544-39093.jpg?t=st=1698393761~exp=1698397361~hmac=a4be9b0097dbc2b57e78d7837c29acfb91644980ba955daccdf4bb3292fdf17f&w=826");
+	background-size: cover;
+	padding-top: 200px;
+	padding-left: 20px;
+	height: 100vh;
+	color:white;
+		
+}
+.home-h1{
+		margin: 0px;
+		
+		font-family:Arial;	
+	}
+.nav-img{
+	width:70px;
+	border-radius:90px;
+	}
+	.nav-icon{
+    color: #fff;
+}
+
+.nav-icon-card{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.home-h1{
+	
+	font-size:40px;
+}
+.about-part{
+	background-color:#178387;
+	color:black;
+	
+	padding:10px;
+}
+	
+.about-card{
+	border:5px solid white;
+	padding:30px;
+	border-radius:20px;
+	margin:10px;
+	background-color:white;
+	
+	}
+.products-part {
+    background-color: #178387;
+    padding: 20px;
+    color: #fff;
+}
+
+.product-h1{
+    font-size: large;
+    margin: 20px;
+}
+
+.product-main-h1{
+    font-size: xx-large;
+    text-align: center;
+}
+
+.product-card {
+    background-color: #062728;
+    color: white;
+    border-radius: 20px;
+    margin: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+.product-about {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.product-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.products-align{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product-price{
+    font-size: large;
+    font-weight: 400;
+}
+.contactus-part{
+    
+    background-color: #380808;
+}
+
+.contactus-inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0d4e51;
+    
+    padding: 20px;
+    
+}
+#input{
+    width: 100%;
+    margin: 10px;
+    background-color: transparent;
+    border: 0px;
+    color: #fff;
+    border-bottom:2px solid #fff;
+}
+#input::placeholder{
+    color: #fff;
+}
+	#sectioncontact{
+	background-color: #178387;
+}
+	.contactus-info{
+    color: #fff;
+    background-color: rgb(80, 45, 45);
+    padding: 20px;
+	font-family:Arial;
+}
+
+#contactus-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contactus-info-h1{
+    color: #fff;
+    font-size: large;
+}
+
+.icon{
+    margin-right: 10px;
+}
+
+.contactus-card{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    padding-top: 0px;
+}
+.contactus-info{
+	background-color: #0d4e51;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #178387;
+}
+
+.footer-icon{
+    font-size: 30px;
+    padding: 10px;
+    margin: 10px;
+    background-image: linear-gradient(to right, #811f81, #0d4e51);
+    background-color: #811f1f;
+    border-radius: 60px;
+}
